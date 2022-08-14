@@ -25,14 +25,14 @@ body {
   height: 100vh; 
   width: 100%; 
   max-width: 500px;
-  border: 1px solid mediumblue;
+  border: 1px solid #14851f;
   margin: auto;
 }
 
 header {
   width: 100%;
   padding: 0 0.25em;
-  background-color: mediumblue;
+  background-color: #14851f;
   color: aliceblue;
   display: flex;
   justify-content: space-between;
@@ -44,7 +44,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   overflow-y: auto;
 }
@@ -52,7 +52,7 @@ main {
 footer {
   width: 100%;
   padding: 0.25em;
-  background-color: mediumblue;
+  background-color: #14851f;
   color: aliceblue;
   display: grid;
   place-content: center;
@@ -106,7 +106,7 @@ ul li::before {
   min-width: 48px;
   height: 36px;
   font-size: 1rem;
-  color: steelblue;
+  color: #005c09;
   cursor: pointer;
 }
 

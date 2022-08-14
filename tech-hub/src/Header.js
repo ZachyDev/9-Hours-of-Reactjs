@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-function Header() {
+const Header = ({ title }) => {
   return (
     <header>
-        <h1>Tech Hub Inc</h1>
+      <h2>{ title }</h2>
     </header>
   )
 }
 
+Header.defaultProps = {
+  title: "Default Title"
+}
 export default Header
